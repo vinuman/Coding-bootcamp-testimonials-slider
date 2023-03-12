@@ -115,12 +115,19 @@ h1{
 @media screen and (max-width:1150px){
 
     body{
-        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden; 
+        overflow-y: hidden; 
+        width:100vw;
+        height: 100vh;
     }
 
     .container{
         width:100%;
         height: 100vh;
+        border:1px solid red;
     }
     h1{
         font-size: 1.8rem;
@@ -138,8 +145,8 @@ h1{
     }
 
     .image{
-        top:5%;
-        right:25%;
+        top:10%;
+        right:20%;
     }
 
     .profile-pic{
@@ -153,14 +160,15 @@ h1{
     }
     
     .curve{
-        bottom:-10%;
+        bottom:0;
+        width:100%;
     }
     
     .bg{
        width:25.2rem;
        height: 25.9rem;
-       top:8%;
-       right:17%;
+       top:5%;
+       right:10%;
     }
     .button{
         width:8rem;
